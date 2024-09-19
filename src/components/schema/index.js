@@ -9,7 +9,7 @@ export const signUpSchema = Yup.object({
     password: Yup.string()
     .min(6)
     .required("Please enter your password")
-    .matches(/^V_.*@.*$/, 'Password must start with V_ and contain @'),
+    .matches(/^A_.*@.*$/, 'Password must start with A_ and contain @'),
   confirm_password: Yup.string()
     .required()
     .oneOf([Yup.ref("password"), null], "Password must match"),
