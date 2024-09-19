@@ -44,7 +44,7 @@ npm start
 
 - Name: Must be between 2 and 25 characters long.
 - Email: Must be a valid email format and match a specific regex pattern (regex@gmail.com).
-- Password: Must be at least 6 characters long, start with V_, and contain an @ symbol.
+- Password: Must be at least 6 characters long, start with  A_, and contain an @ symbol.
 - Confirm Password: Must match the original password field.
 
 ## Usage
